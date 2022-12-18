@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Hello</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Resume</title>
+</head>
+<body>
+    
+    <!--Main-->
+    <div class="main">
+        <!--MainContent-->
+        <div class="main-content">
+            <!--about user-->
+            <div class="about">
+                <h2 class="about-position">Front-End Developer</h2>
+                <h1 class="about-name">Serhii Koreshkov</h1>
+                
+                <p class="about-description">This is the project to test my skills like Front-End Devtloper. Projects are not my work, they are for example. </p>
+            </div>
+            <!--Projects-->
+            <div class="projects">
+                <h3 class="title">Projects</h3>
+                <ol class="project-list">
+                    <li class="project-item">
+                        <span class="project-text"> <a href="https://hellenglish.goit.global/" class="project-link">  hellenglish.goit.global</a>
+                            .......... <span class="project-bracket">[</span>  HTML5, CSS3 <span class="project-bracket">]</span> </span>
+                    </li>
+                    <li class="project-item">
+                        <span class="project-text"><a href="https://cryptohub.goit.global/" class="project-link">cryptohub.goit.global</a>
+                            ........... <span class="project-bracket">[</span>  JavaScript <span class="project-bracket">]</span> </span>
+                    </li>
+                    <li class="project-item">
+                        <span class="project-text"><a href="https://kidslike.goit.global/" class="project-link">kidslike.goit.global</a>
+                            ................. <span class="project-bracket">[</span>  React.js, Node.js <span class="project-bracket">]</span> </span>
+                    </li>
+                </ol>
+
+
+            </div>
+            <!--Work exp-->
+            <div class="work-exp">
+                <h3 class="title">Work Experience</h3>
+                <!--Company 1-->
+                <div>
+                    <h4 class="work-position">Front-End Developer <span class="organization">Freelance</span> </h4>
+                    <p class="period">September 2022 - up to now  <span class="line">|</span>    Ukraine</p>
+                    <ul class="work-list">
+                        <li class="work-list-item">HTML5 coding for pages. </li>
+                        <li class="work-list-item">CSS styling of pages.</li>
+                        <li class="work-list-item">Addind images. </li>
+                        <li class="work-list-item">studying development for a seven-day marathon, as a result of which I was able to make this resume and post it. </li>
+                    </ul>
+                </div>
+                <!--Company 2-->
+                <div>
+                    <h4 class="work-position">Product Manager <span class="organization">
+                        Self employed</span> </h4>
+                    <p class="period">February 2015 - February 2022   <span class="line">|</span>   Ukraine</p>
+                    <ul class="work-list">
+                        <li class="work-list-item"> Adding new products to the website. </li>
+                        <li class="work-list-item"> Adding all necessary information for them.</li>
+                        <li class="work-list-item"> Adding all multimedia for them. </li>
+                    </ul>
+                </div>
+                <!--Company 3-->
+                <div>
+                    <h4 class="work-position">Sales Representative <span class="organization">Zhytomer Candys</span> </h4>
+                    <p class="period">August 2013 - February 2015   <span class="line">|</span>   Ukraine</p>
+                    <ul class="work-list">
+                        <li class="work-list-item"> Making sales plans. </li>
+                        <li class="work-list-item"> Adding new customers.</li>
+                        <li class="work-list-item"> Making good relationships with old customers. </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!--Education-->
+            <div class="education">
+                <h3 class="title">Education</h3>
+                <h4 class="education-university">ADMIRAL MAKAROV NATIONAL UNIVERSITY OF SHIPBUILDING</h4>
+                <h5 class="education-prof">Instrumentation</h5>
+                <p class="period">September 2007 - June 2013   <span class="line">|</span>   Ukraine</p>
+            </div>
+        </div>
+        <!--Sidebar-->
+        <aside class="sidebar">
+            <img src="img/me.jpeg" alt="Me" class="photo">
+            <!--Contacts-->
+            <div class="contacts">
+                <h3 class="sidebar-title">Contacts</h3>
+                <div>
+                    <p> <span class="contact-type">C:</span>  <a href="tel:+380931122166" class="contact-link">+38 093 11 22 166</a> </p>
+                    <p> <span class="contact-type">E:</span>  <a href="mailto:koreshkov2015@gmail.com" class="contact-link">koreshkov2015@gmail.com</a> </p>
+                </div>
+            </div>
+            <!--Tech Skill-->
+            <div class="tech-skill">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skill-list">
+                    <li class="tech-skills-item"> <span class="tech-skills-text">HTML5</span> </li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">CSS3</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">GIT</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span> </li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span> </li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">React.js</span> </li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Node.js</span> </li>
+                </ul>
+            </div>
+            <!--Soft Skills-->
+            <div class="soft-skill">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft-skill-list">
+                    <li class="soft-skill-item"> <span class="soft-skill-text">Hardworking</span> </li>
+                    <li class="soft-skill-item"><span class="soft-skill-text">Easily Trained</span> </li>
+                    <li class="soft-skill-item"><span class="soft-skill-text">Purposeful</span> </li>
+                    <li class="soft-skill-item"><span class="soft-skill-text">Teamwork</span> </li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+
+
+</body>
 </html>
