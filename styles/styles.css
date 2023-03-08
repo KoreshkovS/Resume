@@ -19,13 +19,13 @@ margin: 0 auto;
 .main-content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 50px;
+    padding: 30px 50px;
 }
 
 /* about styles */
 
 .about {
-   margin-bottom: 40px;
+   margin-bottom: 20px;
 }
 
 .about-position{
@@ -34,9 +34,10 @@ margin: 0 auto;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .about-name {
+    margin-top: 0;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -56,10 +57,11 @@ margin: 0 auto;
 /* project styles */
 
 .projects {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .title {
+    margin-top: 0;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -76,7 +78,7 @@ margin: 0 auto;
     color: #000000;
 }
 
-.project-text, .project-link {
+.projects__link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -104,7 +106,7 @@ margin: 0 auto;
 /* work styles */
 
 .work-exp {
-margin-bottom: 45px;
+margin-bottom: 30px;
 
 }
 
